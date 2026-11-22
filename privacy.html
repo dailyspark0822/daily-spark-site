@@ -40,7 +40,7 @@
   <tr><td><strong>Basic technical information</strong> (such as app version and error details, kept by our hosting providers in their normal service logs)</td><td>To keep the service running and fix problems.</td></tr>
 </table>
 <p>Topics are checked automatically to keep the show suitable for a general audience; topics that aren't allowed (such as adult content) are skipped.</p>
-<p>Your morning reminder setting (on/off and the time) is stored only on your phone.</p>
+<p>Your morning reminder setting (on/off and the time) is stored only on your phone. If you allow notifications, we also store a push address for your phone so we can send occasional updates (for example, if an episode is running late); it's removed when you sign out or delete your account.</p>
 
 <h2>How your episode is made</h2>
 <p>Each night, our system searches recent news for your topics, uses AI to write a two-host script based on those news sources, checks the script against the sources, and uses AI voices to turn it into audio. The hosts, Maya and Jordan, are AI voices, not real people. Episodes can contain mistakes, so each one lists its sources.</p>
@@ -55,6 +55,7 @@
   <tr><td>Anthropic (Claude)</td><td>Writes and fact-checks the script</td><td>Your topics, today's date and the news articles found</td></tr>
   <tr><td>Google (Gemini)</td><td>Turns the script into audio</td><td>The episode script</td></tr>
   <tr><td>RevenueCat</td><td>Manages subscriptions</td><td>An account ID and your purchase status from Apple</td></tr>
+  <tr><td>Expo</td><td>Delivers notifications to your phone</td><td>A push address for your phone and the message text</td></tr>
   <tr><td>Apple</td><td>App Store, payments and notifications</td><td>As described in Apple's own privacy policy</td></tr>
 </table>
 <p>We use the paid business versions of these services. We don't allow them to use your information for their own advertising, and we don't send your email address to the AI services.</p>
